@@ -5,7 +5,7 @@ import Comparator from '../../utils/comparator/Comparator';
 // we take into account its priority instead of the element's value.
 export default class PriorityQueue extends MinHeap {
   constructor() {
-    // Call MinHip constructor first.
+    // Call MinHeap constructor first.
     super();
 
     // Setup priorities map.
